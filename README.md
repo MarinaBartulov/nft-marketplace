@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# NFT Marketplace
+- Metaverse Tokens follow ERC721 token standard.
+- Smart contracts are deployed on Mumbai Testnet (Polygon Test Network).
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Technologies
+- EVM, Solidity, Hardhat, Chai
+- Next.js, React, ethers.js
+- Mumbai Testnet, Alchemy, IPFS
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## How to use it?
+- Install MetaMask wallet in your browser and switch to Mumbai Testnet
+- Send Mumbai test MATIC to your account. Faucet for getting test MATIC: https://faucet.polygon.technology/
+- Frontend app is deployed on GitHub Pages and can be accessed using this URL: https://marinabartulov.github.io/nft-marketplace/
+- Connect MetaMask to the app using your account
